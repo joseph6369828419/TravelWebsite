@@ -1,0 +1,44 @@
+.link-child{
+    background-color: purple;
+    padding: 10px;
+  border: 10px solid white;
+  
+   
+}
+.link-head{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    font-size: 0.8rem;
+   
+}
+.link-head:hover{
+    color: white;
+}
+.home-parent{
+    background-color: rgb(95, 94, 94);
+   
+}
+.video1{
+    height:90vh;
+    width: 100%;
+    opacity: 0.2;
+  
+    
+}
+.content{
+    display: flex;
+   
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    display: block;
+    font-weight: bold;
+    color: white;
+    
+
+
+}
+.travel{
+    color: yellow;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Video Slider</title>
+   <link rel="stylesheet" href="MyPersonal.css"/>
+  
+</head>
+<body>
+    <div class="parent">
+    <nav class="link-child">
+    <a href="Home.html" class="link-head">Home</a>
+    <a href="MyPersonal.html" class="link-head">Trip Video</a>
+    <a href="Tripimage.html" class="link-head">Trip Image</a>
+    <a href="" class="link-head">Contact</a>
+    <a href="" class="link-head">About</a>   
+    </nav>
+  
+    <div class="slider-container">
+        <div class="slider" id="slider">
+            <video src="video/video6.mp4"></video>
+            <video src="video/video5.mp4"></video>
+            <video src="video/video3.mp4"></video>
+            <video src="video/video7.mp4"></video>
+            <video src="video/video8.mp4"></video>
+            <video src="video/video9.mp4"></video>
+        </div>
+      
+        <div class="buttons">
+            <button class="btn1"onclick="moveSlider(-1)"><img  class="icon"src="image/arrow-up.png"/></button>
+        </div>
+        <div class="buttons1">
+            <button class="btn2"onclick="moveSlider(1)"><img class="icon"src="image/down.png"/></button>
+        </div>
+        
+    </div>
+    <div class="like-head">
+        <img id="like-icon"class="icon1"src="image/heart.png"onclick="changeLikeImage()"/>
+       <a href="https://joseph6369828419.github.io/Portfoil/Portfoil1.html"><img class="icon2"src="image/send.png"/></a> 
+    </div>
+</div>
+    <script src="MyPersonal.js"></script>
+</body>
+</html>

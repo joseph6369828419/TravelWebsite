@@ -1,0 +1,109 @@
+.link-child{
+    background-color: purple;
+    padding: 10px;
+    border: 10px solid white;
+  
+   
+}
+.link-head{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    font-size: 0.8rem;
+   
+}
+.link-head:hover{
+    color: white;
+}
+
+.link-head1{
+    padding: 5px;
+    text-decoration: none;
+    margin-left: 3px; 
+    font-size: 0.9rem;
+    color: yellow;
+    border-radius: 10px;
+    background-color: orange;
+  
+}
+.link-head1:hover{
+    border: 2px solid black;
+    color: white;
+    padding: 3px;
+    text-decoration: none;
+    margin-left: 1px;
+   
+}
+.link-main{
+    margin-top: 2%;
+    margin-left: 4%;
+}
+
+.munnar-child{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px; /* Adjust the gap between articles as needed */
+}
+.image1{
+    height: 250px;
+    width: 250px;
+}
+.munnar-child1{
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+.image1{
+    border: 5px solid rgb(10, 175, 236);
+    border-radius: 20px;
+}
+.kodai-child{
+   
+    
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px; /* Adjust the gap between articles as needed */
+}
+.kodai-child1{
+    display: flex;
+    justify-content: center;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+
+
+
+.rain-child{
+   
+    
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px; /* Adjust the gap between articles as needed */
+}
+.rain-child1{
+    display: flex;
+    justify-content: center;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+
+.kerala-child{
+   
+    
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px; /* Adjust the gap between articles as needed */
+}
+.kerala-child1{
+    display: flex;
+    justify-content: center;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.letter{
+    margin-left: 30%;
+}
