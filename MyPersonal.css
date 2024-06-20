@@ -42,7 +42,7 @@ body {
     width: 300px;
     height: 500px;
     overflow: hidden;
-    margin-left: 10%;
+    margin-left: 15%;
     margin-top: 8%;
     border-radius: 10%;
 }
@@ -94,7 +94,7 @@ body {
     gap: 40%; /* Adjust the gap between articles as needed */
     position: absolute;
     top: 50%;
-    left: 65%;
+    left: 75%;
 }
 .icon1{
     height: 30px;
